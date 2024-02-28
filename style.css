@@ -1,0 +1,42 @@
+nav{
+    display:flex;
+    justify-content: space-between;
+}
+nav ul{
+    display:flex;
+
+}
+nav  li{
+    margin-right: 10px;
+    list-style: none;
+}
+nav  li:hover{
+    color:#ffffff;
+    background-color: rgb(74, 74, 69);
+   
+}
+nav a{
+    text-decoration: none;
+}
+@media (max-width:600px) {
+    nav{
+        display:flex;
+        justify-content: space-between;
+    }
+    nav ul{
+        display:flex;
+    
+    }
+    nav  li{
+        margin-right: 10px;
+        list-style: none;
+    }
+    nav  li:hover{
+        color:#ffffff;
+        background-color: rgb(74, 74, 69);
+       
+    }
+    nav a{
+        text-decoration: none;
+    }
+}
